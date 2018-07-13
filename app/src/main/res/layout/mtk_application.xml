@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.MTKShortcut xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_gravity="center">
+
+    <com.android.launcher2.BubbleTextView
+        android:id="@+id/app_icon_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/WorkspaceIcon.Portrait"
+        android:background="@drawable/focusable_view_bg"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/app_unread"
+        style="@style/UnreadNumAppearance"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="0dp"
+        android:visibility="gone" />
+
+</com.android.launcher2.MTKShortcut>

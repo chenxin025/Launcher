@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+     <string-array name="pref_workspace_transition_effect_entries">
+        <item>"随机"</item>
+        <item>"标准"</item>
+        <item>"平板"</item>
+        <item>"缩放(内)"</item>
+        <item>"缩放(外)"</item>
+        <item>"风车(上)"</item>
+        <item>"风车(下)"</item>
+        <item>"盒子(内)"</item>
+        <item>"盒子(外)"</item>
+        <item>"层叠"</item>
+    </string-array>
+    
+    <string-array name="pref_allapp_transition_effect_entries">
+        <item>"随机"</item>
+        <item>"标准"</item>
+        <item>"平板"</item>
+        <item>"缩放(内)"</item>
+        <item>"缩放(外)"</item>
+        <item>"风车(上)"</item>
+        <item>"风车(下)"</item>
+        <item>"盒子(内)"</item>
+        <item>"盒子(外)"</item>
+        <item>"层叠"</item>
+    </string-array>
+    <string-array name="custom_menu_list">
+        <item>设置壁纸</item>
+        <item>特效设置</item>
+        <item>编辑桌面</item>
+        <item>系统设置</item>
+        <item>切换模式</item>
+    </string-array>
+    
+    <!-- add by liukaibang begin -->
+    <string-array name="display_mode_list">
+        <item>4 x 4</item>
+        <item>3 x 3</item>
+    </string-array>
+    <!-- add by liukaibang end   -->
+</resources>

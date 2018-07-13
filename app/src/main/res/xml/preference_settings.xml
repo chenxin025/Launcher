@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference
+        android:key="pref_workspace_effect"
+        android:entries="@array/pref_workspace_transition_effect_entries"
+        android:entryValues="@array/pref_workspace_transition_effect_values"
+        android:title="@string/pref_workspace_transition_effect_title"
+        android:summary="@string/pref_workspace_transition_effect_summary"
+        android:defaultValue="@string/pref_workspace_transition_effect_default"
+        >
+    </ListPreference>
+    
+    <ListPreference
+        android:key="pref_all_app_effect"
+        android:entries="@array/pref_allapp_transition_effect_entries"
+        android:entryValues="@array/pref_allapp_transition_effect_values"
+        android:title="@string/pref_allapp_transition_effect_titile"
+        android:summary="@string/pref_allapp_transition_effect_summary"
+        android:defaultValue="@string/pref_allapp_transition_effect_default"
+        >
+    </ListPreference>
+</PreferenceScreen>

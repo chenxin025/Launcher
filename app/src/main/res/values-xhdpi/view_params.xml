@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="celllayout_params_3_3">
+       <item>0</item>
+       <item>64</item>
+    </integer-array>
+    <integer-array name="celllayout_params_4_4">
+        <item>0</item>
+        <item>64</item>
+    </integer-array>
+    <integer-array name="celllayout_params_4_3">
+        <item>230</item>
+        <item>230</item>
+        <item>20</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="celllayout_params_5_4">
+        <item>134</item>
+        <item>164</item>
+        <item>16</item>
+        <item>40</item>
+    </integer-array>
+    
+    <integer-array name="folder_params_3_3">
+        <item>168</item>
+        <item>240</item>
+        <item>36</item>
+        <item>70</item>
+        <!-- old values
+        <item>30</item>
+        <item>20</item> -->
+    </integer-array>
+    <integer-array name="folder_params_4_4">
+        <item>170</item>
+        <item>178</item>
+        <item>20</item>
+        <item>32</item>
+        <!-- old values
+        <item>22</item>
+        <item>32</item> -->
+    </integer-array>
+    
+    <integer-array name="hotseat_params_3_3">
+        <item>240</item>
+        <item>210</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <integer-array name="hotseat_params_4_4">
+        <item>158</item>
+        <item>178</item>
+        <item>16</item>
+        <item>1</item>
+    </integer-array>
+      
+</resources>

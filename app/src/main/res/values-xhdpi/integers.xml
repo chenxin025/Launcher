@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="anim_duration_integer">400</integer>
+    
+    <!-- Added by shanlijuan -->
+    <integer name="workSpace_cellItem_drawablePadding_3_3">10</integer>
+    <integer name="workSpace_cellItem_drawablePadding_4_4">0</integer>
+    <integer name="workSpace_cellItem_textSize_3_3">20</integer>
+    <integer name="workSpace_cellItem_textSize_4_4">14</integer>
+    <integer name="hotseat_layout_height_3_3">208</integer>
+    <integer name="hotseat_layout_height_4_4">152</integer>
+    <integer name="scrollingIndicator_3_3">70</integer>
+    <integer name="scrollingIndicator_4_4">66</integer>
+    <!-- end -->
+</resources>

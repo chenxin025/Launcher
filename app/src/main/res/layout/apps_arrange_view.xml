@@ -1,0 +1,44 @@
+<com.android.launcher2.AppsArrangeView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3" >
+
+    <TextView
+        android:id="@+id/apps_arrange_tip2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/folder_arrage_titlebar_holo"
+        android:gravity="center"
+        android:text="@string/apps_arrange_tip"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_finish2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:alpha="1"
+        android:background="#c8c8c8"
+        android:paddingLeft="0dip"
+        android:paddingRight="0dip"
+        android:text="@string/str_finish"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/applications_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_finish2"
+        android:layout_below="@id/apps_arrange_tip2"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@drawable/divide_bg"
+        android:dividerHeight="2dp"
+        android:listSelector="@drawable/folder_arrage_list_selector" >
+    </ListView>
+
+</com.android.launcher2.AppsArrangeView>

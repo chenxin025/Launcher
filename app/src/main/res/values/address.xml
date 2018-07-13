@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- 版本查询  http://ver.myeton.com/download/checkVersion.php  http://192.168.1.24/managesystem20131204/download/checkVersion.php-->
+      <string name="check_version">http://ver.myeton.com/download/checkVersion.php</string>
+</resources>

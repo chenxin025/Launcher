@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher" >
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <favorite
+        launcher:className="com.android.contacts.activities.DialtactsActivity"
+        launcher:container="-101"
+        launcher:packageName="com.android.contacts"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:container="-101"
+        launcher:packageName="com.android.contacts"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.mms.ui.BootActivity"
+        launcher:container="-101"
+        launcher:packageName="com.android.mms"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+
+    <!-- default workspace items -->
+    <!-- screen [0] start -->
+    <appwidget
+        launcher:className="com.metek.zqWeather.widget.WidgetProvider4x2"
+        launcher:packageName="com.metek.customzqWeather"
+        launcher:screen="0"
+        launcher:spanX="3" 
+        launcher:spanY="2"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <favorite
+        launcher:className="com.android.music.MusicMainActivity"
+        launcher:packageName="com.android.music"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="2" />
+    <favorite
+        launcher:className="com.um.player.phone.SplashScreenActivity"
+        launcher:packageName="com.um.mplayer"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="2" />
+    <favorite
+        launcher:className="com.android.camera.CameraLauncher"
+        launcher:packageName="com.android.gallery3d"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="2" />
+    
+     
+    <folder
+        launcher:screen="1"
+        launcher:title="@string/folder_security_text"
+        launcher:x="0"
+        launcher:y="0" >
+        <favorite
+            launcher:className="com.eton.applicationmanager.UserAppActivity"
+            launcher:packageName="com.eton.applicationmanager"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.eton.mobileopt.MainActivity"
+            launcher:packageName="com.eton.mobileopt"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.etonmobile.firewal.FireWallTabActivity"
+            launcher:packageName="com.etonmobile.firewal"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.etonmobile.Webfirewall.WebfirewallActivity"
+            launcher:packageName="com.etonmobile.Webfirewall"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="1" />
+        <favorite
+            launcher:className="com.eton.privacy.PrivacyPermissionLists"
+            launcher:packageName="com.eton.privacy"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="1" />
+        <favorite
+            launcher:className="com.eton.appbackup.ui.MainActivity"
+            launcher:packageName="com.eton.appbackup"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="1" />
+        <favorite
+            launcher:className="com.eton.lbs.LBSMainActivity02"
+            launcher:packageName="com.eton.lbs"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="2" />
+    </folder>   
+    
+    <favorite
+        launcher:className="com.chaozh.iReader.ui.activity.WelcomeActivity"
+        launcher:packageName="com.chaozh.iReader"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.metek.zqWeather.activity.WelcomeActivity"
+        launcher:packageName="com.metek.customzqWeather"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.eton.cloud.ui.EtonCloudMainActivity"
+        launcher:packageName="com.eton.cloud"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.android.settings.Settings"
+        launcher:packageName="com.android.settings"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.android.fileexplorer.activity.FileExplorerTabActivity"
+        launcher:packageName="com.android.fileexplorer"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.android.deskclock.DeskClock"
+        launcher:packageName="com.android.deskclock"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="2" />
+                          
+    <!-- folder named tools -->
+    <folder
+        launcher:screen="1"
+        launcher:title="@string/folder_tools_text"
+        launcher:x="1"
+        launcher:y="2" >
+        <favorite
+            launcher:className="com.baidu.searchbox.MainActivity"
+            launcher:packageName="com.baidu.searchbox"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.sohu.inputmethod.sogou.SogouIMELauncher" 
+            launcher:packageName="com.sohu.inputmethod.sogou"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.etonmobile.flashlight.FlashLightActivity"
+            launcher:packageName="com.etonmobile.flashlight"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.android.calendar.AllInOneActivity"
+            launcher:packageName="com.android.calendar"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="1" />
+        <favorite
+            launcher:className="com.mediatek.FMRadio.FMRadioActivity"
+            launcher:packageName="com.mediatek.FMRadio"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="1" />
+        <favorite
+            launcher:className="com.android.soundrecorder.SoundRecorder"
+            launcher:packageName="com.android.soundrecorder"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="1" />
+        <favorite
+            launcher:className="com.android.calculator2.Calculator"
+            launcher:packageName="com.android.calculator2"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="2" />
+        <favorite
+            launcher:className="com.android.providers.downloads.ui.DownloadList"
+            launcher:packageName="com.android.providers.downloads.ui"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="2" />
+        <favorite
+            launcher:className="com.mediatek.StkSelection.StkSelection"
+            launcher:packageName="com.mediatek.StkSelection"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="2" />
+    </folder>
+
+    <!-- folder named recommendation -->
+    <folder
+        launcher:screen="1"
+        launcher:title="@string/folder_recommendation_text"
+        launcher:x="2"
+        launcher:y="2" >
+         <favorite
+            launcher:className="com.tencent.mm.ui.LauncherUI"
+            launcher:packageName="com.tencent.mm"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.tencent.mobileqq.activity.SplashActivity"
+            launcher:packageName="com.tencent.mobileqq"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.sina.weibo.SplashActivity"
+            launcher:packageName="com.sina.weibo"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.ting.mp3.oemc.android.SplashActivity"
+            launcher:packageName="com.ting.mp3.oemc.android"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="1" />
+        <favorite
+            launcher:className="com.sohu.sohuvideo.FirstNavigationActivityGroup"
+            launcher:packageName="com.sohu.sohuvideo"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="1" />
+        <favorite
+            launcher:className="com.tencent.news.activity.SplashActivity"
+            launcher:packageName="com.tencent.news"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="1" />
+        <favorite
+            launcher:className="com.mas.wawapak.activity.MainMenuActivity"
+            launcher:packageName="com.mas.wawagame.Kuwajjlord"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="2" />
+        <favorite
+            launcher:className="com.doujiao.huafeipoker.activity.AppStartActivity"
+            launcher:packageName="com.doujiao.huafeipoker.activity"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="2" />
+        <favorite
+            launcher:className="com.autonavi.minimap.Splashy"
+            launcher:packageName="com.autonavi.minimap"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="2" />
+        
+    </folder>
+
+    <!-- screen [1] end -->
+</favorites>

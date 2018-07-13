@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher2.SectorView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000"
+	android:id = "@+id/rootlayout"
+	android:layout_marginTop="300dip"
+    >
+<!--      
+    <ImageView 
+	android:id = "@+id/lancher_pop_img"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentLeft="true"
+	android:layout_width ="50dip"
+	android:layout_height ="50dip"   
+	android:background="@drawable/icon"  
+	/>  
+-->    
+
+			<RelativeLayout
+			android:id = "@+id/lancher_outer_area_size"
+			android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content" 
+			android:layout_alignParentBottom="true"	
+			android:background="@drawable/cometonlaunch_outer_big_framework_photo_null"	
+			/>
+			
+    <RelativeLayout 
+    android:id = "@+id/lancher_sector_area"
+    android:layout_width ="wrap_content"
+	android:layout_height ="wrap_content"
+	>
+	    <RelativeLayout 
+	    android:id = "@+id/lancher_outer_area"
+	    android:layout_width ="wrap_content"
+		android:layout_height ="wrap_content"
+		>
+		
+
+
+
+	        <RelativeLayout 
+			android:id = "@+id/lancher_outer_layer0_bg"
+		    android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content"   
+			android:visibility="gone"  
+			>
+				<ImageView 
+				    android:id = "@+id/lancher_outer_layer0_bg_img"
+				    android:layout_width ="wrap_content"
+					android:layout_height ="wrap_content" 		
+					/>
+		
+				<RelativeLayout 
+				android:id = "@+id/lancher_outer_layer0"
+			    android:layout_width ="fill_parent"
+				android:layout_height ="fill_parent"   
+				>
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer01"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer02"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer03"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer04"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer05"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer06"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer07"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer08"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer09"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />		    
+				    
+<!--  				    
+					<ImageView 
+				    android:id = "@+id/lancher_outer_layer01"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer02"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer03"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer04"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer05"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+					<ImageView 
+				    android:id = "@+id/lancher_outer_layer06"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer07"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer08"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer09"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/> 
+	-->				
+				</RelativeLayout>
+			</RelativeLayout>
+			
+	        <RelativeLayout 
+			android:id = "@+id/lancher_outer_layer1_bg"
+		    android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content"   
+			android:visibility="gone"  
+			>
+				<ImageView 
+				    android:id = "@+id/lancher_outer_layer1_bg_img"
+				    android:layout_width ="wrap_content"
+					android:layout_height ="wrap_content" 			
+				/>
+				<RelativeLayout 
+				android:id = "@+id/lancher_outer_layer1"
+			    android:layout_width ="fill_parent"
+				android:layout_height ="fill_parent"     
+				>
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer11"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer12"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer13"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer14"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer15"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer16"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer17"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer18"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer19"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />		    
+<!-- 				    
+					<ImageView 
+				    android:id = "@+id/lancher_outer_layer11"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer12"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer13"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer14"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer15"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+					<ImageView 
+				    android:id = "@+id/lancher_outer_layer16"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer17"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer18"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer19"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+					
+-->					
+				</RelativeLayout>
+			</RelativeLayout>
+			
+	        <RelativeLayout 
+			android:id = "@+id/lancher_outer_layer2_bg"
+		    android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content"   
+			android:visibility="gone"  
+			>
+				<ImageView 
+				    android:id = "@+id/lancher_outer_layer2_bg_img"
+				    android:layout_width ="wrap_content"
+					android:layout_height ="wrap_content" 			
+				/>
+				<RelativeLayout 
+				android:id = "@+id/lancher_outer_layer2"
+			    android:layout_width ="fill_parent"
+				android:layout_height ="fill_parent" 
+				>
+					
+				    					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer21"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer22"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer23"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer24"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer25"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer26"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer27"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer28"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />
+					<com.android.launcher2.CellLayout
+			        android:id="@+id/lancher_outer_layer29"
+			        android:layout_width="77dip"
+			        android:layout_height="@dimen/sectorview_outer_layer_height"
+			        android:cacheColorHint="#ff333333"
+			        android:hapticFeedbackEnabled="false" 
+			        launcher:cellWidth="77dip"
+			        launcher:cellHeight="77dip"
+			        launcher:widthGap="1dip"
+			        launcher:heightGap="1dip"
+			        android:visibility="invisible"
+			        android:layout_marginTop="300dip"
+			        />	
+<!--  			        	  
+					<ImageView 
+				    android:id = "@+id/lancher_outer_layer21"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer22"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer23"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer24"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer25"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+					<ImageView 
+				    android:id = "@+id/lancher_outer_layer26"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer27"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer28"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/>  
+				    <ImageView 
+				    android:id = "@+id/lancher_outer_layer29"
+				    android:layout_width ="42dip"
+					android:layout_height ="42dip"/> 	
+-->			
+				</RelativeLayout>
+			</RelativeLayout>
+<!--  	
+	    <com.android.launcher2.CellLayout
+        android:id="@+id/sector_content"
+        android:layout_width="77dip"
+        android:layout_height="77dip"
+        android:cacheColorHint="#ff333333"
+        android:background="#88ff0000"
+        android:hapticFeedbackEnabled="false" 
+        launcher:cellWidth="77dip"
+        launcher:cellHeight="77dip"
+        launcher:widthGap="1dip"
+        launcher:heightGap="1dip"
+        />
+-->		    
+<!--	    	    
+		    <com.android.launcher2.CellLayout
+        android:layout_marginTop="300dip"
+        android:layout_gravity="center"
+        android:id="@+id/sector_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/folder_padding"
+        android:paddingRight="@dimen/folder_padding"
+        android:paddingTop="@dimen/folder_padding"
+        android:paddingBottom="@dimen/folder_padding"
+        android:cacheColorHint="#ff333333"
+        android:hapticFeedbackEnabled="false"
+        launcher:widthGap="@dimen/folder_width_gap"
+        launcher:heightGap="@dimen/folder_height_gap"
+        launcher:cellWidth="@dimen/folder_cell_width"
+        launcher:cellHeight="@dimen/folder_cell_height" />
+-->	        
+	        
+	        
+	    </RelativeLayout>
+	
+	
+		
+	    <RelativeLayout 
+	    android:id = "@+id/lancher_middle_area"
+	    android:layout_width ="wrap_content"
+		android:layout_height ="wrap_content" 
+	    >
+		    <ImageView 
+		    android:id = "@+id/lancher_mid_framework_img"
+		    android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content"          
+		    />	
+				
+		    <ImageView 
+		    android:id = "@+id/lancher_pointer_Actual_img"
+		    android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content"         
+		    />
+		  
+		   <ImageView 
+		    android:id = "@+id/lancher_pointer_Anima_img"
+		    android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content"        
+		    />
+		   
+		   <TextView 
+		    android:id = "@+id/lancher_pointer_txt_part0"
+		    android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content"  
+			android:textColor="#ffffff"
+			android:textSize="@dimen/sector_text_size"
+			android:text="@string/widget_just_used"
+		    />
+		   <TextView 
+		    android:id = "@+id/lancher_pointer_txt_part1"
+		    android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content"  
+			android:textColor="#ffffff"
+			android:textSize="@dimen/sector_text_size"
+			android:text="@string/widget_always_used"
+		    />
+		   <TextView 
+		    android:id = "@+id/lancher_pointer_txt_part2"
+		    android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content" 
+			android:textColor="#ffffff"
+			android:textSize="@dimen/sector_text_size"
+			android:text="@string/widget_newinstall"
+		    />
+		</RelativeLayout>
+	
+	    <RelativeLayout 
+	    android:id = "@+id/lancher_center_area"
+	    android:layout_width ="wrap_content"
+		android:layout_height ="wrap_content" 
+	    >
+			<ImageView 
+		    android:id = "@+id/lancher_center_img"
+		    android:layout_width ="wrap_content"
+			android:layout_height ="wrap_content"  
+		    />  
+	    </RelativeLayout>
+  
+	</RelativeLayout>
+
+</com.android.launcher2.SectorView>

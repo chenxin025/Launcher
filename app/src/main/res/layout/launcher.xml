@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.android.launcher2.DragLayer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
+    android:id="@+id/drag_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- added by liudekuan -->
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- end -->
+
+
+        <!-- The workspace contains 5 screens of cells -->
+
+        <com.android.launcher2.Workspace
+            android:id="@+id/workspace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/workspace_bottom_padding"
+            android:paddingTop="@dimen/workspace_top_padding"
+            launcher:cellCountX="@integer/cell_count_x"
+            launcher:cellCountY="@integer/cell_count_y"
+            launcher:pageSpacing="@dimen/workspace_page_spacing"
+            launcher:scrollIndicatorPaddingLeft="@dimen/workspace_divider_left_padding"
+            launcher:scrollIndicatorPaddingRight="@dimen/workspace_divider_padding_right" >
+
+            <!--
+        <include android:id="@+id/cell1" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell2" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell3" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell4" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell5" layout="@layout/workspace_screen" />
+            -->
+        </com.android.launcher2.Workspace>
+        <!--
+     change by ETON guolinan: hotset have background,so we dont need divider 
+    <include
+        android:id="@+id/qsb_divider"
+        layout="@layout/workspace_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/qsb_bar_height"
+        android:layout_gravity="left" />
+    <include
+        android:id="@+id/dock_divider"
+        layout="@layout/workspace_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/button_bar_height"
+        android:layout_gravity="right" />
+        -->
+
+
+        <!--
+         <include
+        android:id="@+id/paged_view_indicator"
+        layout="@layout/scroll_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" 
+        android:layout_marginBottom="@dimen/button_bar_height" />
+        -->
+
+        <include
+            android:id="@+id/hotseat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hotseat_layout_height"
+            android:layout_gravity="bottom"
+            layout="@layout/hotseat" />
+
+        <include
+            android:id="@+id/qsb_bar"
+            layout="@layout/qsb_bar" />
+
+        <include
+            android:id="@+id/delete_zone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            layout="@layout/delete_zone" />
+
+        <include
+            android:id="@+id/screen_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/screen_edit_height"
+            android:layout_gravity="bottom"
+            layout="@layout/screen_edit" />
+
+        <!--
+         <com.android.launcher2.DrawableStateProxyView
+        android:id="@+id/voice_button_proxy"
+        android:layout_width="@dimen/qsb_bar_height"
+        android:layout_height="@dimen/app_icon_size"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="64dp"
+        android:clickable="true"
+        android:onClick="onClickVoiceButton"
+        android:importantForAccessibility="no"
+        launcher:sourceViewId="@+id/voice_button" />
+        -->
+
+        <include
+            android:id="@+id/apps_customize_pane"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/apps_customize_pane"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/workspace_cling"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/workspace_cling"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/folder_cling"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/folder_cling"
+            android:visibility="gone" />
+        <!--
+         <com.android.launcher2.QuickViewWorkspace
+		android:id="@+id/quickviewworkspace"
+		android:visibility="invisible"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+        -->
+
+        <com.android.launcher2.ScrollingIndicator
+            android:id="@+id/scrollingIndicator"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/indicator_padding_bottom"
+            android:gravity="center" />
+
+        <!-- added by liudekuan -->
+    </FrameLayout>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        
+        android:orientation="horizontal">
+    
+            <ImageView
+	        android:id="@+id/wallpaper"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:visibility="invisible"
+	        />
+            
+	    <ImageView
+	        android:id="@+id/blur_level"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:contentDescription="@string/add_folder"
+	        android:visibility="invisible"
+	        />
+	    <View 
+	        android:id="@+id/transparent_view"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="#3C000000"
+	        android:visibility="invisible"
+	        />
+    </RelativeLayout>
+    <!-- end -->
+
+</com.android.launcher2.DragLayer>

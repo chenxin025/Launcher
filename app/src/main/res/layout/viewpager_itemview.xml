@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <!-- -android:background="@drawable/edit_image_bg" -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+            <RelativeLayout 
+			    android:layout_width="48dp"
+			    android:layout_height="48dp"
+			    android:gravity="center"
+			    >
+	            <ImageView
+	                android:id="@+id/album_imgview1"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:clickable="true"
+	                android:layout_centerInParent="true"
+	               
+	                android:visibility="invisible"
+	                android:scaleType="fitXY" />
+	            <ImageButton 
+	                android:id="@+id/check1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentBottom="true"
+	                android:visibility="invisible"
+	                android:background="@drawable/edit_item_select"
+	                android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            
+            
+            
+
+            <TextView
+                android:id="@+id/widget_dim1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/album_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12sp"
+                android:ellipsize="marquee"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout 
+			    android:layout_width="48dp"
+			    android:layout_height="48dp"
+			    android:gravity="center"
+			    >
+            <ImageView
+                android:id="@+id/album_imgview2"
+                android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:clickable="true"
+	            android:layout_centerInParent="true"
+	            android:visibility="invisible"
+                android:scaleType="fitXY" />
+            <ImageButton 
+                    android:id="@+id/check2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentBottom="true"
+	                android:background="@drawable/edit_item_select"
+	                android:visibility="invisible"
+	                android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/widget_dim2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/album_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12sp"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            
+            <RelativeLayout 
+			    android:layout_width="48dp"
+			    android:layout_height="48dp"
+			    android:gravity="center"
+			    >
+            <ImageView
+                android:id="@+id/album_imgview3"
+                android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:clickable="true"
+	            android:layout_centerInParent="true"
+	            android:visibility="invisible"
+                android:scaleType="fitXY" />
+            <ImageButton 
+                    android:id="@+id/check3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentBottom="true"
+	                android:background="@drawable/edit_item_select"
+	                android:visibility="invisible"
+	                android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/widget_dim3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/album_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12sp"
+                android:clickable="true"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout 
+			    android:layout_width="48dp"
+			    android:layout_height="48dp"
+			    android:gravity="center"
+			    >
+            <ImageView
+                android:id="@+id/album_imgview4"
+                android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:clickable="true"
+	            android:layout_centerInParent="true"
+	            android:visibility="invisible"
+                android:scaleType="fitXY" />
+            <ImageButton 
+                    android:id="@+id/check4"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentBottom="true"
+	                android:background="@drawable/edit_item_select"
+	                android:visibility="invisible"
+	                android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/widget_dim4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/album_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textSize="12sp"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher" >
+
+    <favorite
+        launcher:name="dialtacts"
+        launcher:className="com.android.contacts.DialtactsEntryActivity"
+        launcher:packageName="com.android.contacts" />
+    <favorite
+        launcher:name="people"
+        launcher:className="com.android.contacts.PeopleEntryActivity"
+        launcher:packageName="com.android.contacts" />
+    <favorite
+        launcher:name="mms"
+        launcher:className="com.android.mms.ui.BootActivity"
+        launcher:packageName="com.android.mms" />
+    <favorite
+        launcher:name="browser"
+        launcher:className="com.opera.android.OupengStartActivity"
+        launcher:packageName="com.android.browser" />
+    <favorite
+        launcher:name="softmarket"
+        launcher:className="com.uucun.android.cms.activity.MarketLoginAndRegisterActivity"
+        launcher:packageName="com.uucun105381.android.cms" />
+    <favorite
+        launcher:name="ebar"
+        launcher:className="com.eton.ebar.bbs.ui.MainActivity"
+        launcher:packageName="com.eton.ebar" />
+    <favorite
+        launcher:name="mapbar"
+        launcher:className="com.mapbar.android.navigation.eton.DisclaimerActivity"
+        launcher:packageName="com.mapbar.android.navigation.eton" />
+    <favorite
+        launcher:name="fileexplorer"
+        launcher:className="com.android.fileexplorer.activity.FileExplorerTabActivity"
+        launcher:packageName="com.android.fileexplorer" />
+    <favorite
+        launcher:name="applicationmanager"
+        launcher:className="com.eton.applicationmanager.UserAppActivity"
+        launcher:packageName="com.eton.applicationmanager" />
+    <favorite
+        launcher:name="firewall"
+        launcher:className="com.etonmobile.firewal.FireWallTabActivity"
+        launcher:packageName="com.etonmobile.firewal" />
+    <favorite
+        launcher:name="privacy"
+        launcher:className="com.eton.privacy.PrivacyPermissionLists"
+        launcher:packageName="com.eton.privacy" />
+    <favorite
+        launcher:name="flowmonitoring"
+        launcher:className="com.etonmobile.Webfirewall.WebfirewallActivity"
+        launcher:packageName="com.etonmobile.Webfirewall" />
+    <favorite
+        launcher:name="phoneaccelerator"
+        launcher:className="com.eton.mobileopt.MainActivity"
+        launcher:packageName="com.eton.mobileopt" />
+    <favorite
+        launcher:name="googleota"
+        launcher:className="com.mediatek.GoogleOta.GoogleOtaClient"
+        launcher:packageName="com.mediatek.GoogleOta" />
+    <favorite
+        launcher:name="calculator"
+        launcher:className="com.android.calculator2.Calculator"
+        launcher:packageName="com.android.calculator2" />
+    <favorite
+        launcher:name="schedule"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:packageName="com.android.calendar" />
+    <favorite
+        launcher:name="deskclock"
+        launcher:className="com.android.deskclock.DeskClock"
+        launcher:packageName="com.android.deskclock" />
+    <favorite
+        launcher:name="email"
+        launcher:className="com.android.email.activity.Welcome"
+        launcher:packageName="com.android.email" />
+    <favorite
+        launcher:name="gallery"
+        launcher:className="com.android.gallery3d.app.Gallery"
+        launcher:packageName="com.android.gallery3d" />
+    <favorite
+        launcher:name="camera"
+        launcher:className="com.android.camera.CameraLauncher"
+        launcher:packageName="com.android.gallery3d" />
+    <favorite
+        launcher:name="settings"
+        launcher:className="com.android.settings.Settings"
+        launcher:packageName="com.android.settings" />
+    <favorite
+        launcher:name="soundrecorder"
+        launcher:className="com.android.soundrecorder.SoundRecorder"
+        launcher:packageName="com.android.soundrecorder" />
+    <favorite
+        launcher:name="appbackup"
+        launcher:className="com.eton.appbackup.ui.MainActivity"
+        launcher:packageName="com.eton.appbackup" />
+    <!--
+         <favorite
+        launcher:name="usercenter"
+        launcher:className="com.eton.ucenter.ui.UCenterInfoActivity"
+        launcher:packageName="com.eton.ucenter" />
+    -->
+    <favorite
+        launcher:name="chinesecalendar"
+        launcher:className="com.etonmobile.chinesecalendar.MainActivity"
+        launcher:packageName="com.etonmobile.chinesecalendar" />
+    <favorite
+        launcher:name="flashlight"
+        launcher:className="com.etonmobile.flashlight.FlashLightActivity"
+        launcher:packageName="com.etonmobile.flashlight" />
+    <favorite
+        launcher:name="fmradio"
+        launcher:className="com.mediatek.FMRadio.FMRadioActivity"
+        launcher:packageName="com.mediatek.FMRadio" />
+    <favorite
+        launcher:name="mygame"
+        launcher:className="cn.douwan.game.activity.BoxWidgetActivity"
+        launcher:packageName="cn.douwan.game.yt.a" />
+    <favorite
+        launcher:name="music"
+        launcher:className="com.android.music.MusicMainActivity"
+        launcher:packageName="com.android.music" />
+    <favorite
+        launcher:name="stkselection"
+        launcher:className="com.mediatek.StkSelection.StkSelection"
+        launcher:packageName="com.mediatek.StkSelection" />
+    <favorite
+        launcher:name="video"
+        launcher:className="com.um.player.phone.SplashScreenActivity"
+        launcher:packageName="com.um.mplayer" />
+    <favorite
+        launcher:name="usermanual"
+        launcher:className="com.etonmobile.usermanual.PackageGridActivity"
+        launcher:packageName="com.etonmobile.usermanual" />
+    <favorite
+        launcher:name="gameworld"
+        launcher:className="com.flyfish.flyfishv2.ui.ConfirmActivity"
+        launcher:packageName="com.flyfish.flyfishv2" />
+    <favorite
+        launcher:name="ireader"
+        launcher:className="com.chaozh.iReader.ui.activity.WelcomeActivity"
+        launcher:packageName="com.chaozh.iReader" />
+    <favorite
+        launcher:name="weather"
+        launcher:className="com.metek.zqWeather.activity.WelcomeActivity"
+        launcher:packageName="com.metek.customzqWeather" />
+    <favorite
+        launcher:name="ecloud"
+        launcher:className="com.eton.cloud.ui.EtonCloudMainActivity"
+        launcher:packageName="com.eton.cloud" />
+    <favorite
+        launcher:name="theme"
+        launcher:className="com.etonmobile.thememanager.HomeTabActivity"
+        launcher:packageName="com.etonmobile.thememanager" />
+    <favorite
+        launcher:name="baidump3"
+        launcher:className="com.ting.mp3.oemc.android.SplashActivity"
+        launcher:packageName="com.ting.mp3.oemc.android" />
+    <favorite
+        launcher:name="sinaweibo"
+        launcher:className="com.sina.weibo.SplashActivity"
+        launcher:packageName="com.sina.weibo" />
+    <favorite
+        launcher:name="sohuvideo"
+        launcher:className="com.sohu.sohuvideo.FirstNavigationActivityGroup"
+        launcher:packageName="com.sohu.sohuvideo" />
+    <favorite
+        launcher:name="tencentmm"
+        launcher:className="com.tencent.mm.ui.LauncherUI"
+        launcher:packageName="com.tencent.mm" />
+    <favorite
+        launcher:name="tencentnews"
+        launcher:className="com.tencent.news.activity.SplashActivity"
+        launcher:packageName="com.tencent.news" />
+    <favorite
+        launcher:name="tencentmtt"
+        launcher:className="com.tencent.mtt.SplashActivity"
+        launcher:packageName="com.tencent.mtt" />
+    <favorite
+        launcher:name="phonoalbumshoushou"
+        launcher:className="cn.com.opda.android.mainui.MainActivity"
+        launcher:packageName="com.dianxinos.optimizer.channel" />
+    <favorite
+        launcher:name="kuwalord"
+        launcher:className="com.mas.wawapak.activity.MainMenuActivity"
+        launcher:packageName="com.mas.wawagame.Kuwajjlord" />
+    <favorite
+        launcher:name="qqpimsecure"
+        launcher:className="com.tencent.qqpimsecure.ui.activity.SplashActivity"
+        launcher:packageName="com.tencent.qqpimsecure" />
+    <favorite
+        launcher:name="baiducamera"
+        launcher:className="com.baidu.yitong.baiducamera.MainActivity"
+        launcher:packageName="com.baidu.yitong.baiducamera" />
+    <favorite
+        launcher:name="navigator"
+        launcher:className="com.autonavi.xmgd.navigator.Logo"
+        launcher:packageName="com.autonavi.xmgd.navigator" />
+    <favorite
+        launcher:name="searchbox"
+        launcher:className="com.baidu.searchbox.MainActivity"
+        launcher:packageName="com.baidu.searchbox" />
+    <favorite
+        launcher:name="wlan"
+        launcher:className="com.mediatek.bluetooth.hid.BluetoothHidActivity"
+        launcher:packageName="com.mediatek.bluetooth" />
+    <favorite
+        launcher:name="changba"
+        launcher:className="com.changba.activity.Welcome"
+        launcher:packageName="com.changba" />
+    <favorite
+        launcher:name="kuwoplayer"
+        launcher:className="cn.kuwo.player.activities.EntryActivity"
+        launcher:packageName="cn.kuwo.player" />
+    <favorite
+        launcher:name="tencentmobileqq"
+        launcher:className="com.tencent.mobileqq.activity.SplashActivity"
+        launcher:packageName="com.tencent.mobileqq" />
+    <favorite
+        launcher:name="mtxx"
+        launcher:className="com.mt.mtxx.mtxx.TopViewActivity"
+        launcher:packageName="com.mt.mtxx.mtxx" />
+    <favorite
+        launcher:name="youkuplayer"
+        launcher:className="com.youku.phone.ActivityWelcome"
+        launcher:packageName="com.youku.phone" />
+    <favorite
+        launcher:name="pplive"
+        launcher:className="com.pplive.androidphone.ui.FirstActivity"
+        launcher:packageName="com.pplive.androidphone" />
+    <favorite
+        launcher:name="fetion"
+        launcher:className="cn.com.fetion.activity.LaunchActivity"
+        launcher:packageName="cn.com.fetion" />
+    <favorite
+        launcher:name="qihoo360launcher"
+        launcher:className="com.qihoo360.launcher.Launcher"
+        launcher:packageName="com.qihoo360.launcher" />
+    <favorite
+        launcher:name="amazon"
+        launcher:className="com.amazon.mShop.home.HomeActivity"
+        launcher:packageName="cn.amazon.mShop.android" />
+    <favorite
+        launcher:name="etouchecalendar"
+        launcher:className="cn.etouch.ecalendar.ECalendar"
+        launcher:packageName="cn.etouch.ecalendar" />
+    <favorite
+        launcher:name="flashplayer"
+        launcher:className="com.adobe.flashplayer.SettingsManager"
+        launcher:packageName="com.adobe.flashplayer" />
+    <favorite
+        launcher:name="adobe"
+        launcher:className="com.adobe.reader.AdobeReader"
+        launcher:packageName="com.adobe.reader" />
+    <favorite
+        launcher:name="wpsmoffice"
+        launcher:className="cn.wps.moffice.documentmanager.PreStartActivity"
+        launcher:packageName="cn.wps.moffice_eng" />
+    <favorite
+        launcher:name="baidubrowser"
+        launcher:className="com.baidu.browser.apps.BrowserActivity"
+        launcher:packageName="com.baidu.browser.apps" />
+    <favorite
+        launcher:name="ucbrowser"
+        launcher:className="com.UCMobile.main.UCMobile"
+        launcher:packageName="com.UCMobile" />
+    <favorite
+        launcher:name="breadtrip"
+        launcher:className="com.breadtrip.view.MainActivity"
+        launcher:packageName="com.breadtrip" />
+    <favorite
+        launcher:name="qunar"
+        launcher:className="com.Qunar.NoteActivity"
+        launcher:packageName="com.Qunar" />
+    <favorite
+        launcher:name="dianping"
+        launcher:className="com.dianping.v1.SplashScreenActivity"
+        launcher:packageName="com.dianping.v1" />
+    <favorite
+        launcher:name="dangdang"
+        launcher:className="com.dangdang.buy2.StartupActivity"
+        launcher:packageName="com.dangdang.buy2" />
+    <favorite
+        launcher:name="netease"
+        launcher:className="com.netease.nr.biz.ad.AdActivity"
+        launcher:packageName="com.netease.newsreader.activity" />
+    <favorite
+        launcher:name="qzone"
+        launcher:className="com.tencent.sc.activity.SplashActivity"
+        launcher:packageName="com.qzone" />
+    <favorite
+        launcher:name="qqlive"
+        launcher:className="com.tencent.qqlive.activity.WelcomeActivity"
+        launcher:packageName="com.tencent.qqlive" />
+    <favorite
+        launcher:name="qqreader"
+        launcher:className="com.qq.reader.SplashActivity"
+        launcher:packageName="com.qq.reader" />
+    <favorite
+        launcher:name="baiduwenku"
+        launcher:className="com.baidu.wenku.ui.WelcomeActivity"
+        launcher:packageName="com.baidu.wenku" />
+    <favorite
+        launcher:name="baidumap"
+        launcher:className="com.baidu.baidumaps.WelcomeScreen"
+        launcher:packageName="com.baidu.BaiduMap" />
+    <favorite
+        launcher:name="taobao"
+        launcher:className="com.taobao.tao.Welcome"
+        launcher:packageName="com.taobao.taobao" />
+    <favorite
+        launcher:name="zhifubao"
+        launcher:className="com.eg.android.AlipayGphone.AlipayLogin"
+        launcher:packageName="com.eg.android.AlipayGphone" />
+    <favorite
+        launcher:name="qihooappstore"
+        launcher:className="com.qihoo.appstore.activities.MainActivity"
+        launcher:packageName="com.qihoo.appstore" />
+    <favorite
+        launcher:name="meituan"
+        launcher:className="com.sankuai.meituan.activity.Welcome"
+        launcher:packageName="com.sankuai.meituan" />
+    <favorite
+        launcher:name="pps"
+        launcher:className="tv.pps.mobile.WelcomeActivity"
+        launcher:packageName="tv.pps.mobile" />
+    <favorite
+        launcher:name="thestore"
+        launcher:className="com.thestore.main.LoadingActivity"
+        launcher:packageName="com.thestore.main" />
+    <favorite
+        launcher:name="shuqi"
+        launcher:className="com.shuqi.controller.Loading"
+        launcher:packageName="com.shuqi.controller" />
+    <favorite
+        launcher:name="sogou"
+        launcher:className="com.sohu.inputmethod.sogou.SogouIMELauncher"
+        launcher:packageName="com.sohu.inputmethod.sogou" />
+    <favorite
+        launcher:name="nuomi"
+        launcher:className="com.nuomi.activity.NuomiLauncher"
+        launcher:packageName="com.nuomi" />
+    <favorite
+        launcher:name="mjweather"
+        launcher:className="com.moji.mjweather.CSplashScreen"
+        launcher:packageName="com.moji.mjweather" />
+    <favorite
+        launcher:name="tencentweibo"
+        launcher:className="com.tencent.WBlog.activity.WBlogFirstRun"
+        launcher:packageName="com.tencent.WBlog" />
+    <favorite
+        launcher:name="vancl"
+        launcher:className="com.vancl.vancl.activity.WelcomeActivity"
+        launcher:packageName="com.vancl.activity" />
+    <favorite
+        launcher:name="zeptolab"
+        launcher:className="com.zeptolab.ctr.CtrApp"
+        launcher:packageName="com.zeptolab.ctr.ads.chinese.chinaunicom" />
+    <favorite
+        launcher:name="cmb"
+        launcher:className="cmb.pb.ui.PBInitActivity"
+        launcher:packageName="cmb.pb" />
+    <favorite
+        launcher:name="xiangqi"
+        launcher:className="com.cnvcs.App"
+        launcher:packageName="com.cnvcs.xiangqi" />
+    <favorite
+        launcher:name="tencenttoken"
+        launcher:className="com.tencent.token.ui.LogoActivity"
+        launcher:packageName="com.tencent.token" />
+    <favorite
+        launcher:name="qqmusic"
+        launcher:className="com.tencent.qqmusic.activity.AppStarterActivity"
+        launcher:packageName="com.tencent.qqmusic" />
+    <favorite
+        launcher:name="qqpinyin"
+        launcher:className="com.tencent.qqpinyin.activity.GuideDialogActivity"
+        launcher:packageName="com.tencent.qqpinyin" />
+    <favorite
+        launcher:name="360mobilesafe"
+        launcher:className="com.qihoo360.mobilesafe.ui.index.AppEnterActivity"
+        launcher:packageName="com.qihoo360.mobilesafe" />
+    <favorite
+        launcher:name="download"
+        launcher:className="com.android.providers.downloads.ui.DownloadList"
+        launcher:packageName="com.android.providers.downloads.ui" />
+    <favorite
+        launcher:name="etonlbs"
+        launcher:className="com.eton.lbs.LBSMainActivity02"
+        launcher:packageName="com.eton.lbs" />
+    <favorite
+        launcher:name="angrybirds"
+        launcher:className="com.rovio.fusion.App"
+        launcher:packageName="com.rovio.angrybirds" />
+    <favorite
+        launcher:name="angrybirdsseasons"
+        launcher:className="com.rovio.fusion.App"
+        launcher:packageName="com.rovio.angrybirdsseasons" />
+    <favorite
+        launcher:name="xiaowanpi"
+        launcher:className="com.disney.chukong.WMW.WMWActivity"
+        launcher:packageName="com.disney.chukong.WMW" />
+    <favorite
+        launcher:name="fruitninja"
+        launcher:className="com.halfbrick.mortar.MortarGameActivity"
+        launcher:packageName="com.halfbrick.fruitninja" />
+    <favorite
+        launcher:name="kingsoft"
+        launcher:className="com.kingsoft.V6LoadPage"
+        launcher:packageName="com.kingsoft" />
+    <favorite
+        launcher:name="templerunzh"
+        launcher:className="com.templerun1.SkyNetPluginActivity"
+        launcher:packageName="com.imangi.templerunzh" />
+    <favorite
+        launcher:name="youdaodict"
+        launcher:className="com.youdao.dict.activity.DictSplashActivity"
+        launcher:packageName="com.youdao.dict" />
+    <favorite
+        launcher:name="kugou"
+        launcher:className="com.kugou.android.app.splash.SplashActivity"
+        launcher:packageName="com.kugou.android" />
+    <favorite
+        launcher:name="esfileexplorer"
+        launcher:className="com.estrongs.android.pop.cupcake.view.FileExplorerActivity"
+        launcher:packageName="com.estrongs.android.pop.cupcake" />
+    <favorite
+        launcher:name="iflytek"
+        launcher:className="com.iflytek.inputmethod.WizardActivity"
+        launcher:packageName="com.iflytek.inputmethod" />
+    <favorite
+        launcher:name="qvod"
+        launcher:className="com.qvod.player.PlayerAdapterActivity"
+        launcher:packageName="com.qvod.player" />
+    <favorite
+        launcher:name="sqw"
+        launcher:className="com.sqw.bakapp.HBMain"
+        launcher:packageName="com.sqw.bakapp" />
+    <favorite
+        launcher:name="wangxin"
+        launcher:className="com.alibaba.mobileim.SplashActivity"
+        launcher:packageName="com.alibaba.mobileim" />
+    <favorite
+        launcher:name="ttaxc"
+        launcher:className="com.tencent.peng.RedGame"
+        launcher:packageName="com.tencent.peng" />
+    <favorite
+        launcher:name="hmgj"
+        launcher:className="com.huawei.pisa.activity.WelcomeActivity"
+        launcher:packageName="com.huawei.pisa.activity" />
+    <favorite
+        launcher:name="subwaysurf"
+        launcher:className="com.kiloo.subwaysurf.SplashActivity"
+        launcher:packageName="com.kiloo.subwaysurf" />
+    <favorite
+        launcher:name="findsomething"
+        launcher:className="org.funship.findsomething.FindSomething"
+        launcher:packageName="org.funship.findsomething.withRK" />
+    <favorite
+        launcher:name="kbatterydoctor"
+        launcher:className="com.ijinshan.kbatterydoctor.SplashActivity"
+        launcher:packageName="com.ijinshan.kbatterydoctor" />
+    <favorite
+        launcher:name="funshionvideo"
+        launcher:className="com.funshion.video.mobile.start.StartActivity"
+        launcher:packageName="com.funshion.video.mobile" />
+    <favorite
+        launcher:name="migumusic"
+        launcher:className="cmccwm.mobilemusic.ui.activity.PreSplashActivityMigu"
+        launcher:packageName="cmccwm.mobilemusic" />
+    <favorite
+        launcher:name="wo116114"
+        launcher:className="com.neusoft.td.android.wo116114.activity.WelcomeActivity"
+        launcher:packageName="com.neusoft.td.android.wo116114" />
+    <favorite
+        launcher:name="shoujiduoduo"
+        launcher:className="com.shoujiduoduo.ringtone.activity.SplashScreenActivity"
+        launcher:packageName="com.shoujiduoduo.ringtone" />
+    <favorite
+        launcher:name="momo"
+        launcher:className="com.immomo.momo.android.activity.WelcomeActivity"
+        launcher:packageName="com.immomo.momo" />
+    <favorite
+        launcher:name="cmccwifi"
+        launcher:className="com.chinamobile.cmccwifi.WelcomeActivity"
+        launcher:packageName="com.chinamobile.cmccwifi" />
+    <favorite
+        launcher:name="wochacha"
+        launcher:className="com.wochacha.StartupActivity"
+        launcher:packageName="com.wochacha" />
+    <favorite
+        launcher:name="rhythmmaster"
+        launcher:className="com.tencent.game.rhythmmaster.rhythmmaster"
+        launcher:packageName="com.tencent.game.rhythmmaster" />
+    <favorite
+        launcher:name="kuaiya"
+        launcher:className="com.dewmobile.kuaiya.app.DmStartupActivity"
+        launcher:packageName="com.dewmobile.kuaiya" />
+    <favorite
+        launcher:name="appsearch"
+        launcher:className="com.baidu.appsearch.LauncherActivity"
+        launcher:packageName="com.baidu.appsearch" />  
+    <favorite
+        launcher:name="letv"
+        launcher:className="com.letv.android.client.ui.impl.MainActivity"
+        launcher:packageName="com.letv.android.client" /> 
+    <favorite
+        launcher:name="baihe"
+        launcher:className="com.baihe.activity.StartActivity"
+        launcher:packageName="com.baihe" /> 
+    <favorite
+        launcher:name="wifilocating"
+        launcher:className="com.snda.wifilocating.ui.activity.WelcomeActivity"
+        launcher:packageName="com.snda.wifilocating" /> 
+    <favorite
+        launcher:name="baiduvideo"
+        launcher:className="com.baidu.video.ui.WelcomActivity"
+        launcher:packageName="com.baidu.video" />  
+    <favorite
+        launcher:name="qiyivideo"
+        launcher:className="com.qiyi.video.WelcomeActivity"
+        launcher:packageName="com.qiyi.video" /> 
+    <favorite
+        launcher:name="qiyivideo"
+        launcher:className="com.qiyi.video.WelcomeActivity"
+        launcher:packageName="com.qiyi.video" /> 
+    <favorite
+        launcher:name="doudizhu"
+        launcher:className="com.tuyoo.doudizhu.main.DouDiZhuActivity"
+        launcher:packageName="com.tuyoo.doudizhu.main" /> 
+    <favorite
+        launcher:name="jingdong"
+        launcher:className="com.jingdong.app.mall.MainActivity"
+        launcher:packageName="com.jingdong.app.mall" />  
+    <favorite
+        launcher:name="wandoujia"
+        launcher:className="com.wandoujia.phoenix2.NewWelcomeActivity"
+        launcher:packageName="com.wandoujia.phoenix2" /> 
+    <favorite
+        launcher:name="ttpod"
+        launcher:className="com.sds.android.ttpod.EntryActivity"
+        launcher:packageName="com.sds.android.ttpod" />                                                                                 
+    <favorite
+        launcher:name="camera360"
+        launcher:className="vStudio.Android.Camera360.activity.FirstInitActivity"
+        launcher:packageName="vStudio.Android.Camera360" /> 
+    <favorite
+        launcher:name="pao"
+        launcher:className="com.tencent.pao.BreezeGame"
+        launcher:packageName="com.tencent.pao" />  
+    <favorite
+        launcher:name="sohunewsclient"
+        launcher:className="com.sohu.newsclient.app.SplashActivity"
+        launcher:packageName="com.sohu.newsclient" />  
+    <favorite
+        launcher:name="zebra"
+        launcher:className="com.android.camera.CameraActivity"
+        launcher:packageName="com.tencent.zebra" /> 
+    <favorite
+        launcher:name="powerctl"
+        launcher:className="com.qihoo360.mobilesafe.opti.powerctl.ui.activity.MainAvtivity"
+        launcher:packageName="com.qihoo360.mobilesafe.opti.powerctl" /> 
+    <favorite
+        launcher:name="storm"
+        launcher:className="com.storm.smart.LogoActivity"
+        launcher:packageName="com.storm.smart" /> 
+    <favorite
+        launcher:name="meiyancamera"
+        launcher:className="com.meitu.meiyancamera.MyxjActivity"
+        launcher:packageName="com.meitu.meiyancamera" />   
+    <favorite
+        launcher:name="kmusicgottalent"
+        launcher:className="com.app.hero.ui.MainActivity"
+        launcher:packageName="com.app.hero.ui" />  
+    <favorite
+        launcher:name="plantsvszombies"
+        launcher:className="com.tencent.pvz.SexyApp"
+        launcher:packageName="com.tencent.pvz" />
+    <favorite
+        launcher:name="tmall"
+        launcher:className="com.tmall.wireless.module.launchalert.TMLaunchAlertActivity"
+        launcher:packageName="com.tmall.wireless" />
+    <favorite
+        launcher:name="popstar"
+        launcher:className="com.wpd.game.popstar.PopStar"
+        launcher:packageName="com.wpd.game.popstar.cn" />   
+    <favorite
+        launcher:name="mymoney"
+        launcher:className="com.mymoney.ui.splash.SplashScreenActivity"
+        launcher:packageName="com.mymoney" />
+    <favorite
+        launcher:name="renren"
+        launcher:className="com.renren.mobile.android.ui.WelcomeScreen"
+        launcher:packageName="com.renren.mobile.android" />
+    <favorite
+        launcher:name="talkingtom2"
+        launcher:className="com.outfit7.talkingtom2.Main"
+        launcher:packageName="com.outfit7.talkingtom2" />
+    <favorite
+        launcher:name="job51"
+        launcher:className="com.job.android.pages.common.AppHomeGridActivity"
+        launcher:packageName="com.job.android" />
+    <favorite
+        launcher:name="dopooltv"
+        launcher:className="dopool.player.MainActivity"
+        launcher:packageName="dopool.player" />
+    <favorite
+        launcher:name="ctrip"
+        launcher:className="ctrip.android.view.home.CtripSplashActivity"
+        launcher:packageName="ctrip.android.view" />
+    <favorite
+        launcher:name="doodlejumper"
+        launcher:className="com.yeahtouch.doodlejumper.DoodleJumperAndroid"
+        launcher:packageName="com.yeahtouch.doodlejumper" />
+    <favorite
+        launcher:name="kankan"
+        launcher:className="com.kankan.phone.StartupActivity"
+        launcher:packageName="com.xunlei.kankan" />
+    <favorite
+        launcher:name="yinyuetai"
+        launcher:className="com.yinyuetai.ui.SplashActivity"
+        launcher:packageName="com.yinyuetai.uaa" />
+    <favorite
+        launcher:name="yy"
+        launcher:className="com.duowan.mobile.activity.SplashActivity"
+        launcher:packageName="com.duowan.mobile" />
+    <favorite
+        launcher:name="oupeng"
+        launcher:className="com.opera.mini.android.Browser"
+        launcher:packageName="com.oupeng.mini.android" />
+    <favorite
+        launcher:name="facemeter"
+        launcher:className="net.fulle.pvw.SmaskActivity"
+        launcher:packageName="com.face.meter" />
+    <favorite
+        launcher:name="kuaipaierwei"
+        launcher:className="com.lingdong.client.android.activity.StartUpActivity"
+        launcher:packageName="com.lingdong.client.android" />
+    <favorite
+        launcher:name="kuaituliulan"
+        launcher:className="com.alensw.PicFolder.GalleryActivity"
+        launcher:packageName="com.alensw.PicFolder" />
+    <favorite
+        launcher:name="gfan"
+        launcher:className="com.mappn.gfan.ui.activity.GuideActivity"
+        launcher:packageName="com.mappn.gfan" />
+    <favorite
+        launcher:name="googlepinyin"
+        launcher:className="com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity"
+        launcher:packageName="com.google.android.inputmethod.pinyin" />
+    <favorite
+        launcher:name="fishingjoy2"
+        launcher:className="org.cocos2dx.FishingJoy2.FishingJoy2"
+        launcher:packageName="org.cocos2dx.FishingJoy2" />
+    <favorite
+        launcher:name="pisa"
+        launcher:className="com.huawei.pisa.activity.WelcomeActivity"
+        launcher:packageName="com.huawei.pisa.activity" />
+    <favorite
+        launcher:name="duomi"
+        launcher:className="com.duomi.android.DMLauncher"
+        launcher:packageName="com.duomi.android" />
+    <favorite
+        launcher:name="qrscanner"
+        launcher:className="com.google.zxing.client.android.CaptureActivity"
+        launcher:packageName="tool.scanner.qrscan.barcodescan" />
+    <favorite
+        launcher:name="ifeng"
+        launcher:className="com.ifeng.news2.activity.SplashActivity"
+        launcher:packageName="com.ifeng.news2" />
+    <favorite
+        launcher:name="chinabus"
+        launcher:className="cn.chinabus.main.avtivity.StartActivity"
+        launcher:packageName="cn.chinabus.main" />
+    <favorite
+        launcher:name="lieche"
+        launcher:className="cn.tianqu.trainticket.ui.Start"
+        launcher:packageName="cn.lieche.main" />
+    <favorite
+        launcher:name="duokan"
+        launcher:className="com.duokan.reader.DkReaderActivity"
+        launcher:packageName="com.duokan.reader" />
+    <favorite
+        launcher:name="mxbrowser"
+        launcher:className="com.mx.browser.MxBrowserActivity"
+        launcher:packageName="com.mx.browser" />
+    <favorite
+        launcher:name="antutu"
+        launcher:className="com.antutu.ABenchMark.ABenchMarkStart"
+        launcher:packageName="com.antutu.ABenchMark" />
+    <favorite
+        launcher:name="qqyingyin"
+        launcher:className="com.tencent.research.drop.FileManager"
+        launcher:packageName="com.tencent.research.drop" />
+    <favorite
+        launcher:name="qqgame"
+        launcher:className="com.tencent.qqgame.client.QQGameHallActivity"
+        launcher:packageName="com.tencent.qqgame" />
+    <favorite
+        launcher:name="lbesecurity"
+        launcher:className="com.lbe.security.ui.SplashActivity"
+        launcher:packageName="com.lbe.security" />
+    <favorite
+        launcher:name="yinxiangnote"
+        launcher:className="com.evernote.ui.HomeActivity"
+        launcher:packageName="com.evernote.world" />
+    <favorite
+        launcher:name="tigerknows"
+        launcher:className="com.tigerknows.LauncherActivity"
+        launcher:packageName="com.tigerknows" />
+    <favorite
+        launcher:name="baiduinput"
+        launcher:className="com.baidu.input.ImeMainConfigActivity"
+        launcher:packageName="com.baidu.input" />
+    <favorite
+        launcher:name="androidmarket"
+        launcher:className="com.hiapk.marketpho.SplashFrame"
+        launcher:packageName="com.hiapk.marketpho" />
+    <favorite
+        launcher:name="androidesk"
+        launcher:className="com.androidesk.Androidesk"
+        launcher:packageName="com.androidesk" />
+    <favorite
+        launcher:name="qqtonbu"
+        launcher:className="com.tencent.qqpim.UI.QQPimAndroid"
+        launcher:packageName="com.tencent.qqpim" />
+    <favorite
+        launcher:name="wuba"
+        launcher:className="com.wuba.activity.launch.LaunchActivity"
+        launcher:packageName="com.wuba" />
+    <favorite
+        launcher:name="flipboard"
+        launcher:className="flipboard.activities.LaunchActivity"
+        launcher:packageName="flipboard.cn" />
+               
+</favorites>

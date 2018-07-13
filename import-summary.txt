@@ -1,0 +1,54 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* Android.mk
+* CleanSpec.mk
+* MODULE_LICENSE_APACHE2
+* NOTICE
+* ext\
+* ext\Android.mk
+* ext\src\
+* ext\src\com\
+* ext\src\com\mediatek\
+* ext\src\com\mediatek\launcher2\
+* ext\src\com\mediatek\launcher2\ext\
+* ext\src\com\mediatek\launcher2\ext\AllAppsListExt.java
+* ext\src\com\mediatek\launcher2\ext\IAllAppsListExt.java
+* ext\src\com\mediatek\launcher2\ext\ISearchButtonExt.java
+* ext\src\com\mediatek\launcher2\ext\SearchButtonExt.java
+* fill_screens.py
+* print_db.py
+* proguard.flags
+* 验版本流程v1.0.0.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* ic_app_calculator.PNG => ic_app_calculator.png
+* ic_app_ecloud.PNG => ic_app_ecloud.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

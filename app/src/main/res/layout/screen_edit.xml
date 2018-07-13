@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/screen_edit_bottom_bg"
+    android:orientation="vertical"
+    android:visibility="invisible" >
+
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <com.android.launcher2.ScreenEditTextView
+            android:id="@+id/menu_wallpaper"
+            style="@style/ScreenEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/editscreen_button"
+            android:gravity="center"
+            android:text="@string/launcherwallpaper"
+            android:textSize="18dp" />
+
+        <!--
+             <com.android.launcher2.ScreenEditTextView
+            android:id="@+id/menu_theme"
+            style="@style/ScreenEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:background="@drawable/editscreen_button"
+            android:text="@string/launchertheme"
+            android:textSize="18dp" />
+        -->
+
+        <com.android.launcher2.ScreenEditTextView
+            android:id="@+id/menu_effect"
+            style="@style/ScreenEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/editscreen_button"
+            android:gravity="center"
+            android:text="@string/launchereffect"
+            android:textSize="18dp" />
+
+        <com.android.launcher2.ScreenEditTextView
+            android:id="@+id/menu_widget"
+            style="@style/ScreenEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/editscreen_button"
+            android:gravity="center"
+            android:text="@string/launcherwidget"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:spacing="5.0dip" />
+    </LinearLayout>
+
+</LinearLayout>
